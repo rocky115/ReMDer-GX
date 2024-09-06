@@ -10,6 +10,16 @@ This repository is for building blocks, design, ideas and program for building g
 
 3. Gurus- QSoc amd Psytech
 
+
+4. 
+# RMDON-INSIDE_DEEP_BLUE
+Let us start on this Teacher's Day 2024
+
+
+ALU - unit
+
+
+
 I hope we can start from here. It will be a roller and rocker. Let us see.
 
 Wish you a great day :)
