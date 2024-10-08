@@ -12,11 +12,15 @@ This repository is for building blocks, design, ideas and program for building g
 
 
 4. 
-# RMDON-INSIDE_DEEP_BLUE
+# 1. RMDON-INSIDE_DEEP_BLUE
 Let us start on this Teacher's Day 2024
 
 
 ALU - unit
+
+##  2. Memory module cache has been added and common module has been assembled
+
+Verify it and assemble it to test it.
 
 
 
