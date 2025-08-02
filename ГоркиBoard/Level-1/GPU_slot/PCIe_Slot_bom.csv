@@ -1,0 +1,7 @@
+Designator,Footprint,Part Number,Manufacturer,Supplier
+J1,Connector_PinSocket_2.00mm:PCIE_164,PCIE_164,Amphenol,DigiKey
+P1,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,69167-104HLF,FCI,DigiKey
+C1,Capacitor_SMD:C_0805_2012Metric,GRM21BR61C106KE15L,Murata,DigiKey
+C2,Capacitor_SMD:C_0805_2012Metric,GRM21BR61C106KE15L,Murata,DigiKey
+C3,Capacitor_SMD:C_0805_2012Metric,GRM21BR61C106KE15L,Murata,DigiKey
+C4,Capacitor_SMD:C_0805_2012Metric,GRM21BR61C106KE15L,Murata,DigiKey

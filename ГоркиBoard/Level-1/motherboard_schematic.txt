@@ -1,0 +1,77 @@
+# Eeschema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ATX Motherboard Schematic"
+Date "2025-05-17"
+Rev "1.0"
+Comp "xAI"
+Comment1 "Simplified motherboard design for demonstration"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+
+# CPU Socket (LGA 1200)
+$Comp
+L Connector:Socket_LGA1200 U1
+U 1 1 66F2B3A4
+P 3000 4000
+F 0 "U1" H 3000 4100 50  0000 C CNN
+F 1 "Socket_LGA1200" H 3000 3900 50  0000 C CNN
+F 2 "Socket:Socket_LGA1200" H 3000 3800 50  0001 C CNN
+F 3 "" H 3000 4000 50  0000 C CNN
+	1 3000 4000
+	1 0 0 -1 
+$EndComp
+
+# DDR4 Slot
+$Comp
+L Connector:Slot_DDR4 J1
+U 1 1 66F2B3A5
+P 5000 4000
+F 0 "J1" H 5000 4100 50  0000 C CNN
+F 1 "Slot_DDR4" H 5000 3900 50  0000 C CNN
+F 2 "Connector:Slot_DDR4" H 5000 3800 50  0001 C CNN
+F 3 "" H 5000 4000 50  0000 C CNN
+	1 5000 4000
+	1 0 0 -1 
+$EndComp
+
+# ATX Power Connector
+$Comp
+L Connector:ATX_24pin J2
+U 1 1 66F2B3A6
+P 7000 4000
+F 0 "J2" H 7000 4100 50  0000 C CNN
+F 1 "ATX_24pin" H 7000 3900 50  0000 C CNN
+F 2 "Connector:ATX_24pin" H 7000 3800 50  0001 C CNN
+F 3 "" H 7000 4000 50  0000 C CNN
+	1 7000 4000
+	1 0 0 -1 
+$EndComp
+
+# Power Management IC
+$Comp
+L Power:LM317 U2
+U 1 1 66F2B3A7
+P 3000 2000
+F 0 "U2" H 3000 2100 50  0000 C CNN
+F 1 "LM317" H 3000 1900 50  0000 C CNN
+F 2 "TO-220" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 2000 50  0000 C CNN
+	1 3000 2000
+	1 0 0 -1 
+$EndComp
+
+# Connections
+$Wire
+P 3200 4000 3200 2200
+$EndWire
+$Wire
+P 3200 2200 3000 2200
+$EndWire
+
+$EndSCHEMATC
